@@ -46,7 +46,6 @@ bellhops_env.sh
 *:*.png*
 .grunt/
 node_modules/
-src/
 *.css
 *.css.map
 *.sass-cache*
