@@ -66,4 +66,3 @@ class SendgridService(object):
 	def get_available_templates(self):
 		response = self.sendgrid_v3_client.client.templates.get()
 		return json.loads(str(response.response_body, encoding='UTF-8'))
-

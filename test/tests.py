@@ -186,24 +186,3 @@ def test_get_available_templates():
 	assert('templates' in response.keys())
 	assert(len(response['templates']) == 1)
 	assert(response['templates'][0]['name'] == "Postmaster Example")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
