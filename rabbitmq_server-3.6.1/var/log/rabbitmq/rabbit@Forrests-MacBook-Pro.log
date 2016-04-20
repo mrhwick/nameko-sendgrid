@@ -1432,3 +1432,37 @@ closing AMQP connection <0.2322.0> (127.0.0.1:53179 -> 127.0.0.1:5672)
 
 =INFO REPORT==== 19-Apr-2016::15:41:29 ===
 accepting AMQP connection <0.2327.0> (127.0.0.1:53180 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 20-Apr-2016::11:13:56 ===
+closing AMQP connection <0.1591.0> (127.0.0.1:52605 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=WARNING REPORT==== 20-Apr-2016::11:13:56 ===
+closing AMQP connection <0.1607.0> (127.0.0.1:52606 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 20-Apr-2016::11:14:23 ===
+accepting AMQP connection <0.2752.0> (127.0.0.1:54099 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 20-Apr-2016::11:14:23 ===
+closing AMQP connection <0.2752.0> (127.0.0.1:54099 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 20-Apr-2016::11:14:23 ===
+accepting AMQP connection <0.2757.0> (127.0.0.1:54100 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 20-Apr-2016::11:15:03 ===
+closing AMQP connection <0.2757.0> (127.0.0.1:54100 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 20-Apr-2016::11:15:18 ===
+accepting AMQP connection <0.2782.0> (127.0.0.1:54102 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 20-Apr-2016::11:15:18 ===
+closing AMQP connection <0.2782.0> (127.0.0.1:54102 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 20-Apr-2016::11:15:18 ===
+accepting AMQP connection <0.2787.0> (127.0.0.1:54103 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 20-Apr-2016::11:42:09 ===
+closing AMQP connection <0.2787.0> (127.0.0.1:54103 -> 127.0.0.1:5672):
+client unexpectedly closed TCP connection
