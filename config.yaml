@@ -1,0 +1,9 @@
+#Dev  config.yaml for local development
+
+AMQP_URI: 'amqp://guest:guest@rmq'
+
+DB_URIS: {
+  'example:Base': 'postgres://postgres:@psql'
+}
+
+WEB_SERVER_ADDRESS: '0.0.0.0:8000'

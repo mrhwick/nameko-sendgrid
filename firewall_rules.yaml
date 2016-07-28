@@ -1,0 +1,26 @@
+###############################################################################
+# This is the file to show us what ports need to be exposed to the ec2 instance 
+# for this specific project.
+#
+# There should be one of these files in every microservice
+#
+# The syntax needs to look exactly as follows to be treated like a dictionary 
+# by ansible:
+#
+# connect_to:             # Services I want to connect to 
+#   - app: kinetic-database  #existing security group name 
+#     port: 5432                    #Port to add 
+# 
+#   - app: rabbitmq-server 
+#     port: 5672
+# 
+# connects_to_me:   #Services that need to connect to me 
+#   - app: kinetic-app    #Existing Security Group Name
+#     port: 1234             # Port that existing app needs to connect On
+###############################################################################
+
+
+connect_to:
+  - app: rabbitmq-server 
+    port: 5672
+

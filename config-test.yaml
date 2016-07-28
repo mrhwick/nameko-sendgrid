@@ -1,0 +1,9 @@
+#Config for all Test Environments
+
+AMQP_URI: 'amqp://rabbitmq.service.consul:5672'
+
+DB_URIS: {
+  'minitrue:Base': 'postgres://postgres:@psql' 
+}
+
+WEB_SERVER_ADDRESS: '0.0.0.0:8000'

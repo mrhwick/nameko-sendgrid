@@ -1,0 +1,17 @@
+#Compose file to use for Test environments 
+version: '2'
+services:
+  psql:
+    image: postgres
+    hostname: psql
+    ports:
+      - 5432:5432
+  bellhops:
+    build: .
+    command: nameko run src.service --config config-test.yaml
+    dns: DOCKER_HOST_IP
+    depends_on:
+      - psql
+    links:
+      - psql
+    restart: unless-stopped
