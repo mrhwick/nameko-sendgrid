@@ -1,20 +1,12 @@
 # Dev Compose file to use locally/in Vagrant
 version: '2'
 services:
-  # rmq:
-  #   image: rabbitmq:management
-  #   hostname: rmq
-  #   ports:
-  #     - 15672:15672
-  #     - 5672:5672
-
-# Rename this container to match "<your service name>-service"
   nameko-sendgrid-service:
     build:
       context: .
       dockerfile: Dockerfile-service
     external_links:
-      - rmq:rmq
+      - rmq
     restart: unless-stopped
 
 networks:
